@@ -1,0 +1,35 @@
+#title {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.p-div p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-div div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-div div img {
+  height: 300px;
+  margin: 10px;
+}
+
+.btn {
+  padding: 17px 20px;
+  background: red;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}

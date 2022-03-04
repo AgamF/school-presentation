@@ -1,0 +1,26 @@
+.second-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second-div div {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-div div img {
+  margin-left: 10px;
+}
+
+
+.second-div div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-div p {
+  font-size: 25px;
+  width: 1700px;
+}
